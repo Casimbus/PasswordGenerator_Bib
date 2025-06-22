@@ -25,10 +25,4 @@ public class PasswordGenerator {
         return password.toString();
     }
 
-    public static void main(String[] args) {
-        // Приклад використання генератора паролів
-        int passwordLength = 12;
-        String generatedPassword = generatePassword(passwordLength);
-        System.out.println("Згенерований пароль: " + generatedPassword);
-    }
 }
